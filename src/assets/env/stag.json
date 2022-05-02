@@ -1,0 +1,11 @@
+{
+  "limit": 700000,
+  "chainName": "ropsten",
+  "fortmatic_key": "pk_test_DA1AB1FA469B5627",
+
+  "walletChain": "ethereum",
+
+  "suterusu": {
+    "http": "/staging"
+  }
+}

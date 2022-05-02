@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>Website</title>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+
+    <style>
+      html,
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #app > #load {
+        height: 100vh;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        background-color: #0f111f;
+      }
+
+      #app > #load > img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="load">
+        <img src="<%= BASE_URL %>load.gif" />
+      </div>
+    </div>
+  </body>
+</html>
